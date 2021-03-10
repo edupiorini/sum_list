@@ -6,10 +6,10 @@ defmodule SumListTest do
       list = [1, 2, 3]
       response = SumList.call(list)
 
-      expect_response = "banana"
+      expected_response = 6
 
       # executando o test
-      assert response == expect_response
+      assert response == expected_response
     end
   end
 end
